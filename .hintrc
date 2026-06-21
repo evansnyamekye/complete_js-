@@ -1,4 +1,10 @@
 {
+  "extends": ["web-recommended"],
+  "ignoredFiles": [
+    "**/node_modules/**",
+    "**/.lighthouseci/**"
+  ]
+}{
   "connector": {
     "name": "local",
     "options": {
