@@ -1,7 +1,10 @@
 {
   "ci": {
     "collect": {
+      "startServerCommand": "npx http-server -p 8080",
+      "startServerReadyPattern": "Available on",
       "staticDistDir": "./",
+      "url": ["/"],
       "numberOfRuns": 1
     },
     "upload": {
